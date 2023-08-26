@@ -16,12 +16,21 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+body{
+  background-color: #0A0C13;
+
+}
+.hero-con{
+ 
+  background-color: #0A0C13;
+}
+.linear-color{
+  background: linear-gradient(to bottom right, #3481F9, #96C5F8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.hero-btn-bg-color{
+  background: linear-gradient(to bottom right, #3481F9, #96C5F8);
+
 }
